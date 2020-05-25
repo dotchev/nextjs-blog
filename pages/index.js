@@ -14,6 +14,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Click it! Save it! Seed it! Share it! Link it! Stream it!</p>
       </section>
+      <Link href="/user"><a>User Test</a></Link>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
